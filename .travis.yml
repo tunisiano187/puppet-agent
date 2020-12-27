@@ -9,8 +9,8 @@ bundler_args: --jobs 4 --retry 2 --without packaging documentation
 before_install:
   - gem update --system --force
 before_script:
-  - 'git config --global user.email "you@example.com"'
-  - 'git config --global user.name "Your Name"'
+  - 'git config --global user.email "helpdesk.choc@gmail.com"'
+  - 'git config --global user.name "tunisiano187"'
 script: "bundle exec rake $CHECK"
 notifications:
   email: false
