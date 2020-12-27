@@ -20,9 +20,6 @@ matrix:
     - stage: puppet-agent lint
       rvm: 2.5
       env: "CHECK=rubocop"
-    - stage: puppet-agent lint
-      rvm: 2.5
-      env: "CHECK=commits"
     - stage: puppet-agent container tests
       language: ruby
       rvm: 2.6.6
