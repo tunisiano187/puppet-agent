@@ -41,3 +41,4 @@ matrix:
         - make lint
         - make build
         - make test
+ 
